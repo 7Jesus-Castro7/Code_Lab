@@ -49,11 +49,10 @@ header{
 
 }
 
-#menu{
+nav ul li{
     position: fixed;
     margin:auto;
     display:inline;
-    
-    
 
+    
 }
