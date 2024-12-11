@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+<!-- Encabezado -->
+<header>
+    <nav>
+        <a href=""><img src="" alt=""></a>
+        <ul>
+            <li><a href="">Calendario</a></li>
+            <li><a href="">Cultivos</a></li>
+            <li><a href="">Contactos</a></li>
+        </ul>
+    </nav>
+</header>
+<!-- Fin Encabezado -->
+
+<!-- Banner -->
+<section id="banner">
+    <div class="slider-container">
+        <div class="slides">
+            <div class="slide">
+                <img src="" alt="Empanada 1">
+            </div>
+            <div class="slide">
+                <img src="" alt="Empanada 2">
+            </div>
+            <div class="slide">
+                <img src="" alt="Empanada 3">
+            </div>
+        </div>
+        <span class="prev" onclick="moveSlide(-1)">&#10094;</span>
+        <span class="next" onclick="moveSlide(1)">&#10095;</span>
+    </div>
+</section>
+<!-- Fin Banner -->
+
+<section class="Calendario_Form">
+    <!-- Calendario -->
+    <div class="container">
+        <div class="header">
+            <h1>Planificador de Cultivos Interactivo</h1>
+            <button onclick="navigateMonth(-1)">&lt; Mes Anterior</button>
+            <span id="current-month">Marzo 2024</span>
+            <button onclick="navigateMonth(1)">Mes Siguiente &gt;</button>
+        </div>
+
+        <div class="calendar" id="calendar"></div>
+    <!-- Fin Calendario -->
+
+    <!--Formulario-->
+    <div class="form-container">
+        <h2>Formato AGROLAB</h2>
+        <form id="plant-form">
+            <label for="op-cultivo">Cultivo</label>
+            <select id="op-cultivo">
+                <option value="Maíz">Maíz</option>
+                <option value="Trigo">Trigo</option>
+                <option value="Plátano">Plátano</option>
+                <option value="Arroz">Arroz</option>
+                <option value="Papa">Papa</option>
+                <option value="Cebolla">Cebolla</option>
+                <option value="Tomate">Tomate</option>
+            </select>
+
+            <br>
+            <label for="area">Área a sembrar (hectáreas)</label>
+                <input type="number" id="area" required>
+
+            <br>
+            <label for="date">Fecha de Siembra</label>
+                <input type="date" id="date" required>
+
+            <button type="submit">Agregar</button>
+        </form>
+    </div>
+    <!--Final formulario-->
+</section>
+<script src=".//js/carrusel.js"></script>
+<script src=".//js/calendario.js"></script>
+</body>
+
+</html>
