@@ -51,7 +51,9 @@ header{
 
 #menu{
     position: fixed;
-    margin:auto
+    margin:auto;
+    display:inline;
+    
     
 
 }
