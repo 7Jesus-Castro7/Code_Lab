@@ -44,15 +44,16 @@
     border: 1px solid #ddd;
     margin-bottom: 10px;
 }
-header{
+header #menu{
     background-color: #228732;
+   
+        position: fixed;
+        margin:auto;
+        display:inline;
+    
 
 }
 
-#menu{
-    position: fixed;
-    margin:auto;
-    display:inline;
 
     
-}
+
