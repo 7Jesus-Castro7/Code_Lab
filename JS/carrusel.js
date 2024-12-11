@@ -1,4 +1,4 @@
-llet currentSlide = 0;
+let currentSlide = 0;
 
 function showSlide(index) {
     const slides = document.querySelector('.slides');
