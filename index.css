@@ -44,7 +44,7 @@
     border: 1px solid #ddd;
     margin-bottom: 10px;
 }
-header #menu{
+header{
     background-color: #228732;
    
         position: fixed;
