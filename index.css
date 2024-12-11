@@ -54,6 +54,13 @@ header #menu{
 
 }
 
+nav ul {
+    list-style-type: none; 
+}
+nav li {
+    display: inline;
+}
+
 
     
 
