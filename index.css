@@ -46,7 +46,14 @@
 }
 header{
     background-color: #228732;
-    margin:15px;
+
     padding: 20px;
+
+}
+
+#menu{
+    position: fixed;
+    margin:auto
+    
 
 }
