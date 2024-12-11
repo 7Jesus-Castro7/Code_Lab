@@ -15,9 +15,9 @@
     <nav  >
       
         <ul>
-            <li><a href="">Calendario</a></li>
-            <li><a href="">Cultivos</a></li>
-            <li><a href="">Contactos</a></li>
+            <li><a href="#calendario">Calendario</a></li>
+            <li><a href="#cultivos">Cultivos</a></li>
+            <li><a href="#contactos">Contactos</a></li>
         </ul>
     </nav>
 </header>
@@ -43,7 +43,7 @@
 </section>
 <!-- Fin Banner -->
 
-<section class="Calendario_Form">
+<section id="calendario" class="Calendario_Form">
     <!-- Calendario -->
     <div class="container">
         <div class="header">
@@ -84,13 +84,17 @@
     <!--Final formulario-->
 </section>
 
-
-<!-- Scripts JS -->
-<script src=".//js/carrusel.js"></script>
-<script src=".//js/calendario.js"></script>
+<section id="cultivos">
+    <div class="container">
+        <h1>Estado de los Cultivos</h1>
+        
+        <div class="cont_cultivos">
+        </div>
+    </div>
+</section>
 
 <!--Footer-->
-<footer style="background-color: #232f3e; color: white; padding: 20px; text-align: center; margin-top: 20px;">
+<footer id="contactos" style="background-color: #232f3e; color: white; padding: 20px; text-align: center; margin-top: 20px;">
     <div style="margin-bottom: 10px;">
         <a href="#" style="color: white; text-decoration: none; margin: 0 15px;">Condiciones de Uso</a>
         <a href="#" style="color: white; text-decoration: none; margin: 0 15px;">Política de Privacidad</a>
@@ -99,6 +103,10 @@
     <p style="margin: 0;">&copy; 2024 Planificador de Cultivos. Todos los derechos reservados.</p>
 </footer>
 <!--Final footer-->
+
+<!-- Scripts JS -->
+<script src=".//js/carrusel.js"></script>
+<script src=".//js/calendario.js"></script>
 
 </body>
 </html>
