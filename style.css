@@ -10,3 +10,8 @@ nav ul{
 nav li{
     display: inline;
 }
+
+.menu{
+    display: inline;
+    list-style-type: none;
+}
